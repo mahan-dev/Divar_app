@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "https://mahan-dev.github.io/divar_site"
+  base: "https://mahan-dev.github.io/Divar_app"
 })
