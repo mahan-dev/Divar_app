@@ -1,0 +1,55 @@
+
+:root {
+    --main-color : #d14757;
+    --main-border-color : #ccc;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+    padding: 0 1rem;
+    gap: 1rem;
+    font-weight: 500;
+}
+
+.form > h3{
+    width: fit-content;
+    border-bottom: 2px solid var(--main-color);
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+    
+}
+
+
+.form > select {
+    outline: none;
+}
+
+.form > input{
+    border: 2px solid var(--main-border-color);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+
+}
+
+.form > input,
+.form > select
+ {
+    width: 300px;
+}
+
+.form > button {
+    width: fit-content;
+    background-color: var(--main-color);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+}
+.form > button:disabled {
+    opacity: 0.5;
+
+}
