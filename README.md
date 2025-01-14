@@ -1,8 +1,5 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+نکته استفاده از این پروژه !!!!
+حتما باید فایل api رو داشته باشید
+فایل api به دلیل اینکه چندین نفر به اون دسترسی دارند ممکن است دسته بندی ها کم یا زیاد شود و همینطور پست ها 
+و داخل terminal فایل api   با npm start میتونید api اجرا کنید  اگر ارور node moon دریافت کردید package  node moon نصب کنید
+در واقع کد تایید در ترمینال api قابل مشاهده است
