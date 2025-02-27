@@ -1,0 +1,42 @@
+
+:root {
+    --main-color : #d14757;
+    --main-border-color : #ccc;
+}
+
+.post_container{
+    margin: 1rem 0;
+}
+
+.post_container > section{
+    border:  1px solid var(--main-border-color);
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+}
+
+.post_container > h3{
+     width: fit-content;
+    border-bottom: 2px solid var(--main-color);
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+
+.image_content{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.image_content > img{
+    border-radius: 0.5rem;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+:root{
+    --main-color : #d14757;
+    --main-border-color : #ccc;
+}
+
+.categoryList{
+    border: 2px solid var(--main-border-color);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete_category {
+    background-color: #d14757;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}

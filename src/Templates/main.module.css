@@ -1,0 +1,40 @@
+:root{
+    --main-border-color : #ccc;
+}
+
+.postCard_container{
+    display: flex;
+    justify-content: space-between;
+    width: 330px;
+    height: 200px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    border: 1px solid var(--main-border-color);
+}
+
+.main_notFound{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+
+@media only screen and (max-width: 992px) {
+   
+
+    .main{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
